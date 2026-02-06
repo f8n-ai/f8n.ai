@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foundation Intelligence</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --fg: #e8e8e8;
+      --fg-dim: #888;
+      --bg: #0a0a0a;
+      --accent: #c4b5fd;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: 520px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--fg-dim);
+      margin-bottom: 1.25rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .sep {
+      width: 32px;
+      height: 1px;
+      background: #333;
+      margin: 2rem 0;
+    }
+
+    .contact {
+      font-size: 0.9rem;
+      color: var(--fg-dim);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Foundation Intelligence</h1>
+    <p>Structural verification for AI reasoning. We build tools that check whether multi-step conclusions are actually supported by the evidence chains beneath them.</p>
+    <p>Formal methods applied to the hardest part of the problem: not whether individual claims are true, but whether composed reasoning is sound.</p>
+    <div class="sep"></div>
+    <p class="contact"><a href="mailto:eugene@f8n.ai">eugene@f8n.ai</a> &middot; Tokyo</p>
+  </main>
+</body>
+</html>
